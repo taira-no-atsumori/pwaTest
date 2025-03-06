@@ -7,6 +7,7 @@ export default defineConfig({
   build: {
     outDir: 'docs',
   },
+  base: '/pwaTest/',
   plugins: [
     vue(),
     VitePWA({
